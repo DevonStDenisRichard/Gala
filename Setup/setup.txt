@@ -1,0 +1,16 @@
+1. Import the galadb.sql file into MySQL (using the "Import" option, at the top).  This will create the database.
+2. Select the "galadb" database, on the left.
+3. Select the "Privileges" option, at the top.
+4. Add a user "gala11" with the password "XnrAHsaZCJRbUZfM"
+5. Copy all the files to the web root.
+
+To access the admin panel, use Admin.php - The default user name and password are "Admin".  You can change these and add additional users, once inside of the admin screen.
+
+When adding events, The meeting checkbox is what automates the meetings on the right.
+
+You can use HTML tags when adding content.  The basic form of an article is below.  While you do not have to follow the format below, you should have, at the very least - <article class="ArticleBox">
+
+<article class="ArticleBox" style="width:95%"><div id="articlespace"><ArticleBoxTitle>Title</ArticleBoxTitle><br><br><ArticleSubBox>Body of text</ArticleSubBox><br><br></div>
+				</article>
+
+<h1> and <h2> are formated for the site (h2 being an underline version of h1).
